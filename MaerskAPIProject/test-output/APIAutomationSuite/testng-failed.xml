@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [APIAutomationSuite]" parallel="classes">
+  <test thread-count="1" name="APIAutomation(failed)" parallel="classes">
+    <classes>
+      <class name="ApiAutomation.AttributeTest">
+        <methods>
+          <include name="generateToken"/>
+          <include name="createAttribute"/>
+          <include name="createAttributeNegativeTest" invocation-numbers="0"/>
+          <include name="getResult"/>
+          <include name="beforeSetUp"/>
+          <include name="cleanUp"/>
+          <include name="modifyAttributeNegativeTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ApiAutomation.AttributeTest -->
+      <class name="ApiAutomation.CreateArtifact">
+        <methods>
+          <include name="modifyArtifactTypeNegativeTest" invocation-numbers="0"/>
+          <include name="getResult"/>
+          <include name="generateToken"/>
+          <include name="beforeSetUp"/>
+          <include name="createArtifact"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- ApiAutomation.CreateArtifact -->
+    </classes>
+  </test> <!-- APIAutomation(failed) -->
+</suite> <!-- Failed suite [APIAutomationSuite] -->

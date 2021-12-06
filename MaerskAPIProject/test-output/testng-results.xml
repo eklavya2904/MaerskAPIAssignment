@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8351" started-at="2021-12-06T03:43:10 PST" finished-at="2021-12-06T03:43:18 PST">
+    <groups>
+      <group name="SheetName:ProjectArea">
+        <method signature="CreateProjectTest.createProjectTest(java.util.HashMap)[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="createProjectTest" class="ApiAutomation.CreateProjectTest"/>
+      </group> <!-- SheetName:ProjectArea -->
+      <group name="ProjectAreaCreation">
+        <method signature="CreateProjectTest.createProjectTest(java.util.HashMap)[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="createProjectTest" class="ApiAutomation.CreateProjectTest"/>
+      </group> <!-- ProjectAreaCreation -->
+      <group name="API">
+        <method signature="CreateProjectTest.createProjectTest(java.util.HashMap)[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="createProjectTest" class="ApiAutomation.CreateProjectTest"/>
+      </group> <!-- API -->
+      <group name="positive">
+        <method signature="CreateProjectTest.createProjectTest(java.util.HashMap)[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="createProjectTest" class="ApiAutomation.CreateProjectTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="Default test" duration-ms="8351" started-at="2021-12-06T03:43:10 PST" finished-at="2021-12-06T03:43:18 PST">
+      <class name="ApiAutomation.CreateProjectTest">
+        <test-method status="PASS" signature="beforeSetUp()[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="beforeSetUp" is-config="true" duration-ms="171" started-at="2021-12-06T03:43:09 PST" finished-at="2021-12-06T03:43:10 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetUp -->
+        <test-method status="PASS" signature="createProjectTest(java.util.HashMap)[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="createProjectTest" duration-ms="7406" started-at="2021-12-06T03:43:10 PST" data-provider="TestData" finished-at="2021-12-06T03:43:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExecutionCheck=Y, DoorsRP-Request-Type=private, TestDescription=CreateProject-All data, Accept=none, TestCaseName=createProjectTest, Content-Type=text/plain}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:ApiAutomation.CreateProjectTest@d91abcfb]" name="cleanUp" is-config="true" duration-ms="953" started-at="2021-12-06T03:43:19 PST" finished-at="2021-12-06T03:43:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ApiAutomation.CreateProjectTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
